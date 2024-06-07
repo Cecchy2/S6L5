@@ -12069,14 +12069,14 @@ footer {
 }
 
 .check input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: #3c3f42;
 }
 
 .checkmark:after {
   content: "√";
   position: absolute;
   display: none;
-  width: 5px;
+  stroke-width: 20px;
 }
 
 .check input:checked ~ .checkmark:after {
