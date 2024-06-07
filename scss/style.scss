@@ -112,3 +112,11 @@ footer {
   text-decoration: none;
   color: white;
 }
+.userAvatar {
+  position: relative;
+}
+
+.badge {
+  position: relative;
+  transform: translateX(-140px) translatey(120px);
+}
