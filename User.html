@@ -8,7 +8,9 @@
   </head>
   <body class="userBack" data-bs-theme="dark">
     <nav>
-      <img src="assets/assets-netflix/netflix_logo.png" alt="Logo" class="logo img-fluid userLogo mt-3" />
+      <a href="./index.html">
+        <img src="assets/assets-netflix/netflix_logo.png" alt="Logo" class="logo img-fluid userLogo mt-3" />
+      </a>
     </nav>
     <div class="container UserProfile">
       <div class="row">
@@ -16,8 +18,8 @@
           <h1 class="display-4">Edit Profile</h1>
           <hr />
           <div class="row">
-            <div class="col-3"><img src="assets/assets-netflix/avatar.png" alt="" class="userAvatar" /></div>
-            <div class="col-9 inputUser">
+            <div class="col-4"><img src="assets/assets-netflix/avatar.png" alt="" class="userAvatar" /></div>
+            <div class="col-8 inputUser">
               <h5 class="bg-secondary p-2">Strive Student</h5>
               <div class="mt-5">
                 <h5>Language</h5>
@@ -31,16 +33,16 @@
                     English
                   </button>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    <li><a class="dropdown-item" href="#">Italiano</a></li>
+                    <li><a class="dropdown-item" href="#">Chinese</a></li>
                   </ul>
                 </div>
               </div>
               <hr class="my-4" />
 
               <h5>Maturity Settings:</h5>
-              <h6 class="bg-secondary p-2 my-3">ALL MATURITY RATINGS</h6>
+              <h6 class="py-2 my-3 maturity">ALL MATURITY RATINGS</h6>
               <p>Show titles of all maturity ratings for this profile.</p>
               <button type="button" class="btn btn-outline-secondary rounded-0 px-4">EDIT</button>
               <hr class="my-4" />
@@ -56,6 +58,12 @@
                 <span class="checkmark"></span>
               </label>
             </div>
+          </div>
+          <hr class="my-4" />
+          <div class="d-flex">
+            <button type="button" class="btn btn-outline-secondary rounded-0 px-4 me-5">SAVE</button>
+            <button type="button" class="btn btn-outline-secondary rounded-0 px-4 me-5">CANCEL</button>
+            <button type="button" class="btn btn-outline-secondary rounded-0 px-4 me-5">DELETE PROFILE</button>
           </div>
         </div>
       </div>

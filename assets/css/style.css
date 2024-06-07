@@ -12015,7 +12015,7 @@ footer {
 }
 
 .UserProfile {
-  width: 50vw;
+  width: 43vw;
 }
 
 .userAvatar {
@@ -12027,6 +12027,11 @@ footer {
 }
 
 .bg-secondary {
+  background-color: rgb(51, 51, 51);
+}
+
+.maturity {
+  width: 200px;
   background-color: rgb(51, 51, 51);
 }
 
@@ -12086,4 +12091,9 @@ footer {
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
+}
+
+.login {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
