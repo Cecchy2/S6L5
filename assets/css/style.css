@@ -11967,4 +11967,12 @@ textarea.form-control-lg {
 }
 .logo {
   width: 100px;
+}
+
+.avatar {
+  width: 40px;
+}
+
+.bi bi-bell-fill {
+  width: 30px;
 }/*# sourceMappingURL=style.css.map */
