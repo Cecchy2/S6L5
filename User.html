@@ -6,10 +6,60 @@
     <title>Netflix da Mockup</title>
     <link rel="stylesheet" href="./assets/dist/css/style.min.css" />
   </head>
-  <body class="bg-dark" data-bs-theme="dark">
+  <body class="userBack" data-bs-theme="dark">
     <nav>
-      <img src="assets/assets-netflix/netflix_logo.png" alt="Logo" class="logo img-fluid userLogo" />
+      <img src="assets/assets-netflix/netflix_logo.png" alt="Logo" class="logo img-fluid userLogo mt-3" />
     </nav>
+    <div class="container UserProfile">
+      <div class="row">
+        <div class="col mx-auto">
+          <h1 class="display-4">Edit Profile</h1>
+          <hr />
+          <div class="row">
+            <div class="col-3"><img src="assets/assets-netflix/avatar.png" alt="" class="userAvatar" /></div>
+            <div class="col-9 inputUser">
+              <h5 class="bg-secondary p-2">Strive Student</h5>
+              <div class="mt-5">
+                <h5>Language</h5>
+                <div class="dropdown">
+                  <button
+                    class="btn border border-light rounded-0 dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr class="my-4" />
+
+              <h5>Maturity Settings:</h5>
+              <h6 class="bg-secondary p-2 my-3">ALL MATURITY RATINGS</h6>
+              <p>Show titles of all maturity ratings for this profile.</p>
+              <button type="button" class="btn btn-outline-secondary rounded-0 px-4">EDIT</button>
+              <hr class="my-4" />
+              <h5>Autoplay controls</h5>
+              <label class="check"
+                ><p class="textFooter">Autoplay next episode in a series on all devices.</p>
+                <input type="checkbox" checked="checked" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="check"
+                ><p class="textFooter">Autoplay previews while browsing on all devices.</p>
+                <input type="checkbox" checked="checked" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
