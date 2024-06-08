@@ -11982,7 +11982,12 @@ textarea.form-control-lg {
 }
 
 .movie {
-  width: 2000px;
+  width: 1600px;
+}
+
+.movieContainer {
+  max-width: 1400px;
+  overflow: hidden;
 }
 
 footer {

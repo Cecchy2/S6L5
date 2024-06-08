@@ -13,7 +13,11 @@
   background-color: black;
 }
 .movie {
-  width: 2000px;
+  width: 1600px;
+}
+.movieContainer {
+  max-width: 1400px;
+  overflow: hidden;
 }
 footer {
   width: 70vw;
