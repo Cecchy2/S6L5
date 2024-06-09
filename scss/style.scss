@@ -84,3 +84,13 @@ footer {
   transform: translateX(-140px) translatey(120px);
   background-color: rgb(51, 51, 51);
 }
+.cancelButton {
+  border: none;
+  width: 206px;
+  height: 35px;
+  box-shadow: 0 1px 0 lightgrey;
+  font-size: 0.8rem;
+}
+.settingChanges {
+  text-decoration: none;
+}
