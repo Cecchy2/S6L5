@@ -11982,11 +11982,11 @@ textarea.form-control-lg {
 }
 
 .movie {
-  width: 1600px;
+  width: 110vw;
 }
 
 .movieContainer {
-  max-width: 1400px;
+  max-width: 100vw;
   overflow: hidden;
 }
 
